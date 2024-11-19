@@ -1,0 +1,28 @@
+Unauthorized: /api/o/v4/userinfo
+"GET /api/o/v4/userinfo HTTP/1.1" 401 88
+Performing system checks...
+
+System check identified no issues (5 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): upload.
+Run 'python manage.py migrate' to apply them.
+November 19, 2024 - 22:12:17
+Django version 4.2.9, using settings 'geonode.settings'
+Starting development server at http://0.0.0.0:8007/
+Quit the server with CONTROL-C.
+
+Unauthorized: /api/o/v4/userinfo
+"GET /api/o/v4/userinfo HTTP/1.1" 401 88
+Unauthorized: /api/o/v4/userinfo
+"GET /api/o/v4/userinfo HTTP/1.1" 401 88
+Performing system checks...
+
+System check identified no issues (5 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): upload.
+Run 'python manage.py migrate' to apply them.
+November 19, 2024 - 22:28:10
+Django version 4.2.9, using settings 'geonode.settings'
+Starting development server at http://0.0.0.0:8007/
+Quit the server with CONTROL-C.
+

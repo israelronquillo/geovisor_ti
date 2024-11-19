@@ -1,0 +1,23 @@
+{% extends "geonode_base.html" %}
+
+{% load i18n %}
+{% block title %} {% trans "Acerca del Geovisor" %} — {{ block.super }} {% endblock %}
+
+{% block body_outer %}
+<div class="page-header">
+  <h2>{% trans "Acerca del Geovisor" %}</h2>
+</div>
+<p>
+　　{% trans "Geovisor es un sistema de gestión de contenidos geoespaciales, una plataforma para la gestión y publicación de datos geoespaciales. Reúne proyectos de software de código abierto maduros y estables bajo una interfaz consistente y fácil de usar que permite a usuarios no especializados compartir datos y crear mapas interactivos." %}
+</p>
+<p>
+　　{% trans "Las herramientas de gestión de datos integradas en el Geovisor permiten la creación integrada de datos, metadatos y visualizaciones de mapas. Cada conjunto de datos del sistema se puede compartir de forma pública o restringir el acceso a él solo a usuarios específicos. Las funciones sociales, como los perfiles de usuario y los sistemas de calificación, permiten el desarrollo de comunidades en torno a cada plataforma para facilitar el uso, la gestión y el control de calidad de los datos que contiene la instancia de Geovisor." %}
+</p>
+<!-- <p>
+  　　{% trans "Data management tools built into Geovisor allow for integrated creation of data, metadata, and map visualizations. Each dataset in the system can be shared publicly or restricted to allow access to only specific users. Social features like user profiles and rating systems allow for the development of communities around each platform to facilitate the use, management, and quality control of the data the Geovisor instance contains." %}
+  </p> -->
+<p>
+　　{% trans "It is also designed to be a flexible platform that software developers can extend, modify or integrate against to meet requirements in their own applications." %}
+</p>
+
+{% endblock %}
