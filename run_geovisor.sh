@@ -4,7 +4,7 @@ source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 workon venv
 
 #Ejecucion del Geonode
-cd /opt/geonode/
+cd /opt/geovisor_ti/
 set -a
 . ./.env_dev
 set +a
